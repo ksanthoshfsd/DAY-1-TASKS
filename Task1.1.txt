@@ -1,0 +1,44 @@
+DIFFERENCE BETWEEN HTTP 1.1 vs HTTP 2.0.txt
+
+HTTP-1:
+1. Request Multiplexing:
+In HTTP-1, requests are sent sequentially over a single TCP connection. Each request must wait for the response before the next request can be sent.
+
+2. Header Compression:
+Headers are sent in plaintext with each request and response. This can lead to inefficiencies, especially when sending large headers or making multiple requests.
+
+3. Resource Loading:
+Multiple resources (e.g., images, scripts, stylesheets) are loaded sequentially, leading to potential bottlenecks and slower page loading times.
+
+4. Latency:
+High latency due to the overhead of establishing multiple TCP connections for parallel requests and responses.
+
+5. Prioritization:
+Limited support for prioritizing resources, leading to potential starvation of critical resources.
+
+
+HTTP-2:
+1. Multiplexed Streams:
+HTTP-2 allows multiple requests and responses to be sent and received concurrently over a single TCP connection. This improves efficiency and reduces latency.
+
+2. Header Compression:
+It uses header compression techniques such as HPACK, which significantly reduce the overhead of sending headers with each request and response.
+
+3. Binary Framing Layer:
+Requests and responses are split into smaller frames and sent as binary data. This reduces the overhead and allows for more efficient processing by servers and clients.
+
+4. Server Push:
+HTTP-2 supports server push, where the server can proactively send resources to the client before they are requested. This reduces latency and improves page load times.
+
+5. Stream Prioritization:
+HTTP-2 allows for stream prioritization, where resources can be assigned a priority level. This ensures that critical resources are loaded first, improving overall page load times.
+
+6. Header Compression:
+HTTP-2 introduces HPACK, a more efficient header compression algorithm, reducing overhead compared to HTTP-1.
+
+7. Backward Compatibility:
+HTTP-2 is designed to be fully backward compatible with HTTP-1.1, allowing it to be deployed incrementally without requiring changes to existing infrastructure.
+
+
+
+DAY 1 TASK, FIRST QUESTION COMPLETED

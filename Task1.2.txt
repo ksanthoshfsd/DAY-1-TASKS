@@ -1,0 +1,23 @@
+OBJECTS & ITS INTERNAL REPRESENTATION IN JAVASCRIPT
+
+1. Objects are like Containers: - Imagine objects as containers that hold different pieces of information. Each piece of information is called a property, and it's stored with a name called a key.
+
+2. Easy Access with Keys: - You can think of keys as labels on drawers. When you want to get or change a piece of information inside the container, you use the corresponding key.
+
+3. Flexible and Changeable: - One cool thing about objects in JavaScript is that you can change what's inside them anytime you want. You can add new properties, remove existing ones, or change their values whenever needed.
+
+4. Sharing and Inheritance: - Objects can also share properties and behaviors with each other. This is like saying, "If you don't have something, check in this other container." It's called prototype-based inheritance.
+
+5. Different Ways to Create: - There are different ways to create objects. You can use constructor functions, object literals (which are like shortcuts), or even special methods called classes.
+
+6. Using Objects for Actions: - Objects can do more than just hold information. They can also perform actions or tasks. These actions are called methods, and they're like little helpers inside the container that know how to do specific things.
+
+7. Easy to Loop Through:  - If you want to go through all the information in an object, you can use a loop. It's like opening each drawer in the container and checking what's inside.
+
+8. Copying and Sharing: - When you copy an object, you're not making a brand new container. Instead, you're creating another label that points to the same container. So, changing something in one copy will affect the other copies too.
+
+In simple terms, objects in JavaScript are like containers with labels where you can store and organize information. They're flexible, easy to work with, and can do a lot of different things, making them essential for building all sorts of programs and websites.
+
+
+
+DAY 1 TASK, SECOND QUESTION COMPLETED
